@@ -1,0 +1,51 @@
+import 'package:flutter/material.dart';
+import 'lib/main.dart';
+
+class ScaleExample extends StatefulWidget {
+  ScaleExample({
+    Key key,
+    @required this.index,
+    @required this.pageController,
+    @required this.rozklad,
+  });
+  final int index;
+  final PageController pageController;
+  final AsyncSnapshot<dynamic> rozklad;
+  @override
+  _ScaleExampleState createState() => _ScaleExampleState();
+}
+
+class _ScaleExampleState extends State<ScaleExample> {
+  double scale=0.9;
+  @override
+  void initState() { 
+    widget.pageController..removeListener(_updateScale)..addListener((){_updateScale();});
+    super.initState();
+  }
+  void _updateScale(){
+    if(this.mounted){
+      changeingweekdayname();
+      setState(() {
+        nowdayofweeknotint=widget.pageController?.page;
+      });
+    }
+    if (widget.pageController.page==null) {
+      print('null');
+      if (widget.index==nowdayofweeknotint.round()) {
+        scale=1;
+      }else{
+        scale=0.9;
+      }
+    }
+  }
+  @override
+  Widget build(BuildContext context) {
+    //*
+      scale=(widget.index*100.round()/100-nowdayofweeknotint.roundToDouble()).abs()>1?0.9:1-(widget.index-nowdayofweeknotint).abs()*0.1;
+    //*/
+    return Transform.scale(
+      scale: scale,
+      child: Container()
+    );
+  }
+}

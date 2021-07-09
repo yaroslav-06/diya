@@ -1,0 +1,3 @@
+passport rgb(211, 223, 240)
+podatku rgb(236, 226, 234)
+cvid pro narod rgb(217, 232, 239)

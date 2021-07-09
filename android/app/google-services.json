@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954301385454",
+    "project_id": "diya-442a5",
+    "storage_bucket": "diya-442a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954301385454:android:58c8a6206dda60dac441ff",
+        "android_client_info": {
+          "package_name": "com.myProjfs.diya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954301385454-pi0rsdds2amcddrg6s7dco49db1f71kg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCADXG6OC9J8dwSRMct33EWzAItdiIYEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954301385454-pi0rsdds2amcddrg6s7dco49db1f71kg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
