@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>954301385454-ammekaba08qbocnudfdpclkb9lc97odt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.954301385454-ammekaba08qbocnudfdpclkb9lc97odt</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>954301385454-a5ihuiiqnc8np5lpn7thhplv7ic5lg4a.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCobu42j5EmrGiIUF2HOhmMASN0A3CIxIQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>954301385454</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rgansk.diyabeta</string>
+	<key>PROJECT_ID</key>
+	<string>diya-442a5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>diya-442a5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:954301385454:ios:58fb5cdadda23153c441ff</string>
+</dict>
+</plist>
